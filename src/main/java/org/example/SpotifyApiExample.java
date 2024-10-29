@@ -3,13 +3,17 @@ package org.example;
 import okhttp3.*;
 import org.json.JSONObject;
 
+import java.util.Scanner;
+
 public class SpotifyApiExample {
     public static void main(String[] args) throws Exception {
+        Scanner scan=new Scanner(System.in);
         String accessToken = SpotifyAuth.getAccessToken(); // Get the access token
         OkHttpClient client = new OkHttpClient();
 
         // Example: Fetch data for a specific track
-        String trackId = "3HkDOgyxSnO8XklAq8m0rX"; // Replace with the actual track ID
+        System.out.print("Enter the track ID: ");
+        String trackId = scan.next(); // Replace with the actual track ID
         String url = "https://api.spotify.com/v1/tracks/" + trackId;
 
         Request request = new Request.Builder()
