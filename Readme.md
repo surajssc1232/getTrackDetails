@@ -3,7 +3,7 @@
 This project demonstrates how to use the OkHttp library to interact with the Spotify API. It includes examples of fetching an access token and retrieving data for a specific track.
 
 ## Prerequisites
-
+- OAuth 2.0
 - Java 22
 - Maven
 - Spotify Developer Account
