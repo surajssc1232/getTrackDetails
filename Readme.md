@@ -13,7 +13,7 @@ This project demonstrates how to use the OkHttp library to interact with the Spo
 1. **Clone the repository:**
 
     ```bash
-    git clone <your-repo-url>
+    git clone <https://github.com/surajssc1232/getTrackDetails.git>
     cd <your-repo-directory>
     ```
 
@@ -36,7 +36,12 @@ This project demonstrates how to use the OkHttp library to interact with the Spo
     ```
 
 2. **Follow the prompts:**
+   2. **Follow the prompts:**
 
+    _Enter the track ID when prompted to fetch data for a specific track. 
+    You can find the track ID in the Spotify app or web player by sharing the track and copying the Spotify URI. 
+    The track ID is the part after `spotify:track:` in the URI._
+    
     Enter the track ID when prompted to fetch data for a specific track.
 
 ## Dependencies
